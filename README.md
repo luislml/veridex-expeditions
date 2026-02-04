@@ -11,7 +11,7 @@
 
 Este proyecto demuestra el uso de tecnologías modernas de React para crear experiencias inmersivas, animadas y altamente interactivas.
 
-## ✨ Características Clave
+##  Características Clave
 
 - **Atmósfera Inmersiva**:
   - Sistema de partículas personalizado (`Canvas API`).
@@ -29,7 +29,7 @@ Este proyecto demuestra el uso de tecnologías modernas de React para crear expe
   - Diseño Mobile-First con Tailwind CSS.
   - Menú de navegación móvil con animación fluida.
 
-## 🚀 Tecnologías
+##  Tecnologías
 
 - **Core**: React 18, Vite.
 - **Estilos**: Tailwind CSS, Lucide React (Iconos).
@@ -37,7 +37,7 @@ Este proyecto demuestra el uso de tecnologías modernas de React para crear expe
 - **SEO**: React Helmet Async.
 - **Datos**: OpenWeatherMap API.
 
-## 🛠️ Instalación y Uso
+##  Instalación y Uso
 
 1. **Clonar el repositorio**:
    ```bash
@@ -61,7 +61,7 @@ Este proyecto demuestra el uso de tecnologías modernas de React para crear expe
    npm run dev
    ```
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -73,11 +73,10 @@ src/
 └── index.css       # Estilos globales y Tailwind
 ```
 
-## 🎨 Créditos y Recursos
+##  Créditos y Recursos
 
-- Imágenes proporcionadas por Unsplash.
 - Iconografía por Lucide.
 - Inspirado en la obra de H.P. Lovecraft.
 
 ---
-Desarrollado con 💜 por [Tu Nombre]
+Desarrollado por luis soto
