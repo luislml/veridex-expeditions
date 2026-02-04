@@ -1,0 +1,112 @@
+[
+    {
+        "realName": "Uyuni",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -20.13,
+            "lon": -67.48
+        },
+        "lovecraftName": "El Espejo de Azathoth",
+        "lore": "Donde el cielo y la tierra se unen para reflejar el caos nuclear del centro del universo.",
+        "imageUrl": "/images/uyuni.JPG"
+    },
+    {
+        "realName": "La Paz",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -16.50,
+            "lon": -68.11
+        },
+        "lovecraftName": "La Ciudadela de las Nubes Negras",
+        "lore": "Construida en una caldera que respira, sus habitantes caminan más cerca de las estrellas de lo que es prudente.",
+        "imageUrl": "/images/lapaz.jpg"
+    },
+    {
+        "realName": "Madidi",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -14.30,
+            "lon": -68.50
+        },
+        "lovecraftName": "El Jardín de Tsathoggua",
+        "lore": "Una selva impenetrable donde la flora misma parece tener consciencia y hambre.",
+        "imageUrl": "/images/madidi.jpg"
+    },
+    {
+        "realName": "Sucre",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -19.03,
+            "lon": -65.25
+        },
+        "lovecraftName": "La Ciudad Blanca del Silencio",
+        "lore": "Sus muros blancos ocultan bibliotecas prohibidas con textos anteriores a la humanidad.",
+        "imageUrl": "/images/sucre.jpg"
+    },
+    {
+        "realName": "Potosí",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -19.57,
+            "lon": -65.75
+        },
+        "lovecraftName": "La Montaña que Devora Hombres",
+        "lore": "Excavada hasta las entrañas, dicen que en lo profundo ya no se extrae plata, sino sombras.",
+        "imageUrl": "/images/potosi.jpg"
+    },
+    {
+        "realName": "Oruro",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -17.98,
+            "lon": -67.15
+        },
+        "lovecraftName": "El Valle de las Danzas Prohibidas",
+        "lore": "Durante el carnaval, las máscaras no ocultan rostros… revelan otras cosas.",
+        "imageUrl": "/images/oruro.jpg"
+    },
+    {
+        "realName": "Cochabamba",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -17.39,
+            "lon": -66.15
+        },
+        "lovecraftName": "El Valle de la Eterna Bruma",
+        "lore": "Dicen que en este valle la fertilidad de la tierra se alimenta de algo que duerme bajo el suelo.",
+        "imageUrl": "/images/cochabamba.jpg"
+    },
+    {
+        "realName": "Tarija",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -21.53,
+            "lon": -64.73
+        },
+        "lovecraftName": "Los Viñedos de la Sangre Antigua",
+        "lore": "El vino de estas tierras tiene un matiz que no es del todo uva, y provoca sueños de ciudades ciclópeas.",
+        "imageUrl": "/images/tarija.jpg"
+    },
+    {
+        "realName": "Beni",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -14.83,
+            "lon": -64.90
+        },
+        "lovecraftName": "El Pantano de los Espejos Rotos",
+        "lore": "Cuando las aguas suben, reflejan un cielo que tiene dos lunas y estrellas desconocidas.",
+        "imageUrl": "/images/beni.jpg"
+    },
+    {
+        "realName": "Pando",
+        "country": "Bolivia",
+        "coords": {
+            "lat": -11.02,
+            "lon": -68.75
+        },
+        "lovecraftName": "El Umbral Silencioso",
+        "lore": "La selva aquí es tan densa que la luz del sol lucha por tocar el suelo, donde cosas antiguas reptan.",
+        "imageUrl": "/images/pando.jpg"
+    }
+]
