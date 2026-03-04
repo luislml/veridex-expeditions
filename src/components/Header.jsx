@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { Compass, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -28,9 +28,9 @@ export default function Header() {
 
                 {/* Nav - Desktop */}
                 <nav className="hidden md:flex items-center gap-8">
-                    <Link to="/" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">Destinos</Link>
-                    <Link to="/diary" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">Diario</Link>
-                    <Link to="/about" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">Sobre Nosotros</Link>
+                    <NavLink to="/" className={({ isActive }) => `text-sm font-medium transition-all duration-300 ${isActive ? 'text-violet-400' : 'text-gray-300 hover:text-white'}`}>Destinos</NavLink>
+                    <NavLink to="/diary" className={({ isActive }) => `text-sm font-medium transition-all duration-300 ${isActive ? 'text-violet-400' : 'text-gray-300 hover:text-white'}`}>Diario</NavLink>
+                    <NavLink to="/about" className={({ isActive }) => `text-sm font-medium transition-all duration-300 ${isActive ? 'text-violet-400' : 'text-gray-300 hover:text-white'}`}>Sobre Nosotros</NavLink>
                     <button className="px-5 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium transition-all text-white">
                         Mi Cuenta
                     </button>
@@ -56,27 +56,27 @@ export default function Header() {
                             transition={{ duration: 0.2 }}
                             className="fixed inset-0 z-40 bg-black/95 backdrop-blur-xl md:hidden flex flex-col items-center justify-center space-y-8 pt-20"
                         >
-                            <Link
+                            <NavLink
                                 to="/"
                                 onClick={toggleMenu}
-                                className="text-3xl font-serif text-white hover:text-violet-400 transition-colors"
+                                className={({ isActive }) => `text-3xl font-serif transition-colors ${isActive ? 'text-violet-400' : 'text-white hover:text-violet-400'}`}
                             >
                                 Destinos
-                            </Link>
-                            <Link
+                            </NavLink>
+                            <NavLink
                                 to="/diary"
                                 onClick={toggleMenu}
-                                className="text-3xl font-serif text-white hover:text-violet-400 transition-colors"
+                                className={({ isActive }) => `text-3xl font-serif transition-colors ${isActive ? 'text-violet-400' : 'text-white hover:text-violet-400'}`}
                             >
                                 Diario
-                            </Link>
-                            <Link
+                            </NavLink>
+                            <NavLink
                                 to="/about"
                                 onClick={toggleMenu}
-                                className="text-3xl font-serif text-white hover:text-violet-400 transition-colors"
+                                className={({ isActive }) => `text-3xl font-serif transition-colors ${isActive ? 'text-violet-400' : 'text-white hover:text-violet-400'}`}
                             >
                                 Sobre Nosotros
-                            </Link>
+                            </NavLink>
                             <button className="px-8 py-3 rounded-full bg-violet-600 text-white font-medium hover:bg-violet-700 transition-colors text-lg mt-8">
                                 Ingresar
                             </button>
